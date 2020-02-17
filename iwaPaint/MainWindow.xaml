@@ -1,0 +1,25 @@
+﻿<Window x:Class="iwaPaint.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:iwaPaint"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ScrollViewer x:Name="tools" HorizontalAlignment="Left" Height="174" VerticalAlignment="Top" Width="98" Margin="0,239,0,0">
+            <Grid>
+                <RadioButton Content="鉛筆" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="40" GroupName="tool" FontSize="7"/>
+                <RadioButton Content="バケツ" HorizontalAlignment="Left" Height="40" Margin="40,40,0,0" VerticalAlignment="Top" Width="40" GroupName="tool" FontSize="7"/>
+                <RadioButton Content="消しゴム" HorizontalAlignment="Left" Height="40" Margin="40,0,0,0" VerticalAlignment="Top" Width="40" GroupName="tool" FontSize="7"/>
+                <RadioButton Content="マーカー" HorizontalAlignment="Left" Height="40" Margin="0,40,0,0" VerticalAlignment="Top" Width="40" GroupName="tool" FontSize="7"/>
+                <RadioButton Content="ぼかし" HorizontalAlignment="Left" Height="40" Margin="40,80,0,0" VerticalAlignment="Top" Width="40" GroupName="tool" FontSize="7"/>
+                <RadioButton Content="選択ペン" HorizontalAlignment="Left" Height="40" Margin="40,120,0,0" VerticalAlignment="Top" Width="40" GroupName="tool" FontSize="7"/>
+                <RadioButton Content="筆" HorizontalAlignment="Left" Height="40" Margin="0,80,0,0" VerticalAlignment="Top" Width="40" GroupName="tool" FontSize="7"/>
+                <RadioButton Content="2値ペン" HorizontalAlignment="Left" Height="40" Margin="0,120,0,0" VerticalAlignment="Top" Width="40" GroupName="tool" FontSize="7"/>
+
+            </Grid>
+        </ScrollViewer>
+
+    </Grid>
+</Window>
